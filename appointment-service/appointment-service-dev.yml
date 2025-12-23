@@ -1,0 +1,11 @@
+
+appointment:
+  slot:
+    duration-minutes: 20     # relaxed for dev testing
+    max-per-day: 50
+
+  cancellation:
+    allowed-before-hours: 1  # easy testing
+
+  notification:
+    enabled: false           # avoid spamming dev users

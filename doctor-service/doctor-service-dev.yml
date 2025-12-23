@@ -1,0 +1,10 @@
+doctor:
+  availability:
+    default-start-time: "08:00"
+    default-end-time: "20:00"   # extended hours for testing
+
+  rating:
+    min-visible-rating: 1.0     # show almost everyone
+
+  cache:
+    ttl-seconds: 60             # quick refresh

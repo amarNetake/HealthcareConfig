@@ -1,0 +1,10 @@
+lab:
+  report:
+    retention-days: 30          # dev cleanup
+
+  upload:
+    max-file-size-mb: 5         # smaller test files
+
+  integration:
+    partner-base-url: "https://sandbox.labpartner.com"
+    timeout-ms: 5000

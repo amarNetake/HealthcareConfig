@@ -1,0 +1,10 @@
+appointment:
+  slot:
+    duration-minutes: 15
+    max-per-day: 20
+
+  cancellation:
+    allowed-before-hours: 24
+
+  notification:
+    enabled: true

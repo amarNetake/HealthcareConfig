@@ -1,0 +1,10 @@
+doctor:
+  availability:
+    default-start-time: "09:00"
+    default-end-time: "17:00"
+
+  rating:
+    min-visible-rating: 4.0     # stricter quality bar
+
+  cache:
+    ttl-seconds: 1800           # aggressive caching

@@ -1,0 +1,10 @@
+appointment:
+  slot:
+    duration-minutes: 10     # optimized for revenue
+    max-per-day: 30
+
+  cancellation:
+    allowed-before-hours: 24
+
+  notification:
+    enabled: true

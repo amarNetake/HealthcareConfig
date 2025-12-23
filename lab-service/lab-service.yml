@@ -1,0 +1,10 @@
+lab:
+  report:
+    retention-days: 365
+
+  upload:
+    max-file-size-mb: 10
+
+  integration:
+    partner-base-url: "https://api.lab-default.com"
+    timeout-ms: 3000

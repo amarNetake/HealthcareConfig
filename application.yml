@@ -1,0 +1,17 @@
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: WARN
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+spring:
+  jackson:
+    time-zone: UTC
+
+meta:
+  about: HEALTHCARE

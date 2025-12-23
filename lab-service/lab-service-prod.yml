@@ -1,0 +1,10 @@
+lab:
+  report:
+    retention-days: 730         # compliance (2 years)
+
+  upload:
+    max-file-size-mb: 25        # real medical reports
+
+  integration:
+    partner-base-url: "https://api.labpartner.com"
+    timeout-ms: 2000
