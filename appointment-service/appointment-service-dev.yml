@@ -5,7 +5,7 @@ appointment:
     max-per-day: 50
 
   cancellation:
-    allowed-before-hours: 2  # easy testing
+    allowed-before-hours: 1  # easy testing
 
   notification:
     enabled: false           # avoid spamming dev users
