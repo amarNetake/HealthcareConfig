@@ -12,6 +12,9 @@ management:
 spring:
   jackson:
     time-zone: UTC      
+  output:
+    ansi:
+      enabled: always
 
 meta:
   about: HEALTHCARE
